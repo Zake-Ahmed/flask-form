@@ -36,5 +36,6 @@ def register():
 
     return render_template('home.html', form=form, message=message)
 
+
 if __name__ == '__main__':
      app.run(debug=True, host='0.0.0.0')
